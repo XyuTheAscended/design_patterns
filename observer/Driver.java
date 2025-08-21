@@ -1,4 +1,4 @@
-package strategy;
+package observer;
 
 public class Driver {
     public static void main(String[] args) {
