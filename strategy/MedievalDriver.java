@@ -93,7 +93,7 @@ public class MedievalDriver {
      */
     private boolean playAgain() {
         while (true) {
-            System.out.print("Do you want to continue (Y)es or (N)o: ");
+            System.out.print("\nDo you want to continue (Y)es or (N)o: ");
             String command = reader.nextLine().toLowerCase().trim();
 
             if (command.equals(YES)) {
